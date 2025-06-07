@@ -1,4 +1,71 @@
 header {
+    background: url("../assets/images/Background_Intro.png") no-repeat;
+    background-size: 100% auto;
+    height: 750px;
+
+    text-align: center;
     
+    section {
+        padding-top: 120px;
+    }
 }
 
+.description {
+  max-width: 680px;      /* Limite máximo da largura */
+  width: 100%;           /* Garante que se ajuste em telas menores */
+  margin: 0 auto 80px;        /* Centraliza horizontalmente */
+  padding: 0 1rem;       /* Espaço nas laterais para evitar encostar */
+
+
+
+  img:first-of-type{
+    padding-bottom: 64px;
+  }
+  p span {
+    color: var(--red);
+  }
+  
+  h1 {
+    margin-block: 8px 20px;
+  }
+
+  p:last-child{
+    color: var(--gray-400);
+  }
+}
+
+.icons-tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; /* ou flex-start */
+    margin-top: 2rem
+}
+
+.bt-social {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #1e1f24;
+    color: #c5c5c5;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px; /* pill shape */
+    text-decoration: none;
+    font: var(--txt-md);
+    transition: background 0.3s;
+
+        img{
+            width: 24px;
+            height: 24px;
+        }
+}
+
+.bt-social:hover {
+  background-color: #2a2b30;
+}
+
+.icon.html {
+  background-color: var(--red);
+  border-radius: 50%;
+  padding: 0.4rem;
+}

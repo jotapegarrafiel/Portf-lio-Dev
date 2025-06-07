@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+}
+
+.h1 {
+    font: var(--title-lg);
+}
+.sub {
+    font: var(--subtitle);
+}
+
+.text-sm {
+    font: var(--txt-sm);
+}
