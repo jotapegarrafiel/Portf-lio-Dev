@@ -6,6 +6,11 @@ header {
   height: 750px;
   text-align: center;
 }
+
+  img:last-child{
+    padding-top: 94px;
+  }
+
 .description {
   display: flex;
   flex-direction: column;
