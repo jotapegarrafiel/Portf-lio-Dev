@@ -2,14 +2,13 @@ header {
   background-image: url("../assets/images/Background_Intro.png");
   background-repeat: no-repeat;
   background-size: cover;        /* ou "contain", dependendo do efeito desejado */
-  background-position: center;   /* centraliza a imagem */
   height: 750px;
   text-align: center;
 }
 
-  img:last-child{
-    padding-top: 94px;
-  }
+.seta {
+  padding-top: 94px;
+}
 
 .description {
   display: flex;
@@ -22,8 +21,8 @@ header {
 
 
   img:first-of-type{
-    padding-block: 56px;
     width: 112px;
+    margin-top: 120px;
     display: flex;
     align-self: center;
   }
