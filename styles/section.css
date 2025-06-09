@@ -2,10 +2,8 @@
     padding-top: 183px;
     background-color: var(--gray-200);
     text-align: center;
-    padding-bottom: 144px;
     p:first-child{
         color: var(--red);
-        padding-top: 72px;
         margin-bottom: 8px;
     }
 }

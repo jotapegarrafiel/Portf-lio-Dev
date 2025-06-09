@@ -1,17 +1,14 @@
 header {
-
-    background: url("../assets/images/Background_Intro.png") no-repeat;
-    background-size: 100% auto;
-    height: 750px;
-
-    text-align: center;
-    
-    section {
-        padding-top: 120px;
-    }
+  background-image: url("../assets/images/Background_Intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;        /* ou "contain", dependendo do efeito desejado */
+  background-position: center;   /* centraliza a imagem */
+  height: 750px;
+  text-align: center;
 }
-
 .description {
+  display: flex;
+  flex-direction: column;
   max-width: 680px;      /* Limite máximo da largura */
   width: 100%;           /* Garante que se ajuste em telas menores */
   margin: 0 auto 80px;        /* Centraliza horizontalmente */
@@ -20,7 +17,10 @@ header {
 
 
   img:first-of-type{
-    padding-bottom: 64px;
+    padding-block: 56px;
+    width: 112px;
+    display: flex;
+    align-self: center;
   }
   p span {
     color: var(--red);
@@ -40,6 +40,7 @@ header {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center; /* ou flex-start */
+    margin-inline: auto;
 }
 
 .bt-social {
