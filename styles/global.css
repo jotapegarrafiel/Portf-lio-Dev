@@ -40,6 +40,13 @@
 body {
     font: var(--title-sm);
     color: var(--gray-600);
+
+    
+}
+
+
+img {
+
 }
 
 a {
